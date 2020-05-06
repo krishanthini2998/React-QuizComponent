@@ -10,7 +10,7 @@ this.state={quiz_position:1}
 render(){
    return(
    <div>
-      <QuizQuestion />
+      <QuizQuestion quiz_question={quizData.quiz_questions[this.state.quiz_position-1]}/>
    </div>
    )
  } 
