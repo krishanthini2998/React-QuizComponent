@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 class QuizQuestion extends Component{
  render(){
+  return(
    <main>
         <section>
           <p>{this.props.quiz_question.instruction_text}</p>
@@ -12,6 +13,7 @@ class QuizQuestion extends Component{
           </ul>
         </section>
       </main>
+   )
  }
 }
 
